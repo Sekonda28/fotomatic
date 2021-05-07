@@ -3,6 +3,8 @@
 html {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
+  max-width: 1440px;
+  margin: auto;
 }
 
 .main-content {
@@ -38,19 +40,24 @@ html {
 
 header {
   position: fixed;
-  width: 100%;
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
+  z-index: 100;
+  width: 1440px;
 }
 
 header .content {
   display: flex;
   align-items: center;
   padding: 1.875rem;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 header .logo {
   flex: 1;
+  font-family: "Roberto Mono", monospace;
+  font-size: 2rem;
 }
 
 header nav ul {
@@ -76,7 +83,6 @@ header .icon {
 header .mobile {
   display: none;
 }
-
 @media only screen and (max-width: 760px) {
   header .desktop {
     display: none;
@@ -117,6 +123,10 @@ header .mobile {
   justify-content: flex-start;
   align-items: flex-start;
   height: 43.5rem;
+  background-image: url(../images/banner-landingpage.jpg);
+  background-position: center;
+  background-position: cover;
+
 }
 
 #sign-up-cta {
@@ -160,7 +170,7 @@ header .mobile {
   margin-top: 1.625rem;
   padding: 1.25rem 7.25rem;
 }
-
+/*tablet*/
 @media only screen and (max-width: 760px) {
   #sign-up-section {
     align-items: center;
@@ -192,7 +202,7 @@ header .mobile {
     font-size: 2.25rem;
   }
 }
-
+/*mobile*/
 @media only screen and (max-width: 450px) {
   #sign-up-section {
     height: 20rem;
