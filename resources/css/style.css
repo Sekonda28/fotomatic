@@ -45,6 +45,7 @@ header {
   z-index: 100;
   max-width: 1440px;
   width: 100%;
+  max-height: 85px;
   margin: auto;
 }
 
@@ -136,6 +137,8 @@ header .mobile {
   border: solid 1px #979797;
   border-radius: 4px;
   background-color: #9dc20b;
+  margin-left: 100px;
+  margin-top: 170px;
 }
 
 #sign-up-cta .content {
@@ -233,6 +236,7 @@ header .mobile {
   padding: 2rem;
   margin: 0px 1.25rem;
   background-color: white;
+  width: 100%;
 }
 
 .feature .image-container {
